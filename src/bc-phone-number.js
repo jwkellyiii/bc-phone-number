@@ -38,7 +38,7 @@ angular.module('bcPhoneNumber', ['bcPhoneNumberTemplates', 'ui.bootstrap'])
       selectedCountry: '=',
       isValid: '=',
       ngModel: '=',
-      ngChange: '=',
+      ngChange: '=?',
       ngDisabled: '='
     },
     link: function(scope, element, attrs, ctrl) {
