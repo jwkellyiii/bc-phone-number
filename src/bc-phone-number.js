@@ -47,7 +47,7 @@ angular.module('bcPhoneNumber', ['bcPhoneNumberTemplates', 'ui.bootstrap'])
       scope.number = scope.ngModel;
       scope.changed = function() {
         scope.ngChange();
-      }
+      };
 
       if (scope.preferredCountriesCodes) {
         var preferredCodes = scope.preferredCountriesCodes.split(' ');
